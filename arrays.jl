@@ -47,3 +47,19 @@ print_dimension_of_array(a)
 
 println("printing of dimension of an array")
 print_dimension_of_array(b)
+
+##invloving matrices
+
+function print_unit_matrix(n)
+    println(eye(n))
+end
+function print_zero_matrix(n)
+    println(zeros(n))
+end
+function print_ones_matrix(n)
+    println(ones(n))
+end
+
+print_unit_matrix(5)
+print_zero_matrix(3)
+print_ones_matrix(4)
