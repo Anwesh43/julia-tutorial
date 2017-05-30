@@ -60,6 +60,13 @@ function print_ones_matrix(n)
     println(ones(n))
 end
 
+function print_determinant_of_matrix(A)
+    println(det(A))
+end
+
 print_unit_matrix(5)
 print_zero_matrix(3)
 print_ones_matrix(4)
+A = [1 2
+    3 4]
+print_determinant_of_matrix(A)
