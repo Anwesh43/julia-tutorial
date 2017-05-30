@@ -70,3 +70,10 @@ print_ones_matrix(4)
 A = [1 2
     3 4]
 print_determinant_of_matrix(A)
+
+function print_rank_trace_of_a_matrix(A)
+    println("trace of A is $(trace(A))")
+    println("rank of A is $(rank(A))")
+end
+
+print_rank_trace_of_a_matrix([1 2;3 4])
